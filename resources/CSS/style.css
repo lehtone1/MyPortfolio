@@ -36,7 +36,7 @@ html {
 }
 
 section {
-    padding: 80px o;
+    padding: 80px 0;
 }
 
 /*--------HEADINGS--------*/
@@ -50,6 +50,27 @@ h3 {
 h1 {
     font-size: 240%;
     color: #FFF;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 180%;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+h2:after {
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: #2980b9;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 20px;
+
+
 }
 
 /* ---------------------------------------*/
@@ -100,4 +121,14 @@ header {
     border-bottom: 2px solid #2980b9;
 }
 
+/* ---------------------------------------*/
+/* ABOUT */
+/* ---------------------------------------*/
+
+.section-about img {
+    border-radius: 50%;
+    width: 60%;
+    height: auto;
+    margin: 0 20%;
+}
 

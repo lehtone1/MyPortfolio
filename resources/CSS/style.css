@@ -61,6 +61,12 @@ h2 {
     letter-spacing: 1px;
 }
 
+h3 {
+    font-size: 120%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 h2:after {
     display: block;
     width: 100px;
@@ -130,5 +136,27 @@ header {
     width: 60%;
     height: auto;
     margin: 0 20%;
+}
+
+/* ---------------------------------------*/
+/* PROJECTS */
+/* ---------------------------------------*/
+
+.section-projects {
+    background-color: #F9F9F9;
+}
+
+.project-box {
+    background-color: #FFF;
+}
+
+.project-box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.project-box p {
+    margin: 0 5%;
 }
 

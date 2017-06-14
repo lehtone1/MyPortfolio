@@ -133,6 +133,41 @@ header {
     border-bottom: 2px solid #2980b9;
 }
 
+.sticky-nav {
+    float:right;
+    list-style: none;
+    text-align: right;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    position: fixed;
+    background-color: #FFF;
+    opacity: 0.8;
+}
+
+.sticky-nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.sticky-nav li a:link,
+.sticky-nav li a:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #555;
+    font-size: 90%;
+    padding: 20px;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.sticky-nav li a:hover,
+.sticky-nav li a:active {
+    border-bottom: 2px solid #2980b9;
+}
+
 /* ---------------------------------------*/
 /* ABOUT */
 /* ---------------------------------------*/

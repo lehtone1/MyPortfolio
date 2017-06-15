@@ -36,4 +36,15 @@ $(document).ready(function() {
         }
     });
 
+    var waypoint = new Waypoint({
+        element: document.getElementById('about'),
+        handler: function(direction) {
+            if(direction == "down") {
+                $("#js--nav-bar").addClass("sticky-nav").removeClass("main-nav");
+            } else if(direction == "up") {
+                $("#js--nav-bar").addClass("main-nav").removeClass("sticky-nav");
+            }
+        }
+    });
+
 })

@@ -18,6 +18,7 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+
 .clearfix {zoom: 1}
 .clearfix:after {
     content: ' . ';
@@ -36,12 +37,13 @@ html {
 }
 
 section {
-    padding: 80px 0;
+    padding: 80px 1.6%;
 }
 
 i {
     color: #F9F9F9;
     font-size: 200%;
+    -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 
@@ -58,6 +60,8 @@ h1 {
     color: #FFF;
     word-spacing: 4px;
     letter-spacing: 1px;
+    font-weight: 100;
+   
 }
 
 h2 {
@@ -88,6 +92,8 @@ h2:after {
 p {
     letter-spacing: 1px;
     word-spacing: 2px;
+    font-weight: 300;
+    line-height: 120%;
 }
 
 /* ---------------------------------------*/
@@ -95,6 +101,7 @@ p {
 /* ---------------------------------------*/
 
 header {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(img/background.jpeg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(img/background.jpeg);
     background-size: cover;
     background-position: center;
@@ -108,7 +115,8 @@ header {
     top: 50%;
     left: 50%;
     padding-left: 50px;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
 }
 
 .main-nav {
@@ -120,6 +128,7 @@ header {
 .main-nav li {
     display: inline-block;
     margin-right: 20px;
+    font-weight: 100;
 }
 
 .main-nav li a:link,
@@ -130,6 +139,7 @@ header {
     font-size: 90%;
     padding: 20px;
     border-bottom: 3px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
 }
 
@@ -165,6 +175,7 @@ header {
     font-size: 90%;
     padding: 8px;
     border-bottom: 3px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
 }
 
@@ -177,12 +188,27 @@ header {
 /* ABOUT */
 /* ---------------------------------------*/
 
+.section-about {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
 .section-about img {
     border-radius: 50%;
-    width: 60%;
+    width: 20%;
     height: auto;
-    margin: 0 20%;
+    margin: 0% 40% 3% 40%;
 }
+
+.section-about p {
+    text-align: center;
+    margin: 0% 20%;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 140%;
+}
+
 
 /* ---------------------------------------*/
 /* PROJECTS */
@@ -194,7 +220,7 @@ header {
 
 .project-box {
     background-color: #FFF;
-    height: 750px;
+    height: 800px;
 }
 
 .project-box img {
@@ -205,6 +231,12 @@ header {
 
 .project-box p {
     margin: 0 5%;
+    text-align: center;
+}
+
+.project-box h3 {
+    height: 40px;
+    text-align: center;
 }
 
 
@@ -229,7 +261,8 @@ footer h2 {
 .contact-list li {
     display: inline-block;
     text-decoration: none;
-    margin:8.8%;
+    width: 24%;
+    text-align: center;
 }
 
 .ion-ios-email:hover,

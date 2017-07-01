@@ -1,0 +1,57 @@
+
+
+/* Big tablets to 1200px, which is the 1140px row 768 */
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* Small tablet to big tablet 768 - 1023px */
+@media only screen and (max-width:1023px) {
+
+    h1 {
+        padding: 0 10%;
+    }
+
+    .project-box {
+        width: 47.6%;
+        height: 800px;
+}
+
+/* Small phones to small tablets 481 - 767px */
+@media only screen and (max-width:767px) {
+
+    h1 {
+        padding: 9 18%;
+        font-size: 180%;
+    }
+
+    
+
+}
+
+/* Small phones from 1 -480px */
+@media only screen and (max-width:480px) {
+
+
+    h1 {
+        padding:0 28%;
+        font-size: 160%;
+    }
+
+    .project-box {
+        width: 100%;
+    }
+
+    .contact-list {
+        margin: 0 15%;
+    }
+
+    .section-about img {
+        border-radius: 50%;
+        width: 40%;
+        height: auto;
+        margin: 0% 30% 3% 30%;
+    }
+
+
+}}

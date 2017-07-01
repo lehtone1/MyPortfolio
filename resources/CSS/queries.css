@@ -8,21 +8,39 @@
 /* Small tablet to big tablet 768 - 1023px */
 @media only screen and (max-width:1023px) {
 
-    h1 {
-        padding: 0 10%;
-    }
-
     .project-box {
         width: 47.6%;
         height: 800px;
-}
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+    .section-about p {
+        margin: 0% 15%;
+    }
 
 /* Small phones to small tablets 481 - 767px */
 @media only screen and (max-width:767px) {
 
     h1 {
-        padding: 9 18%;
-        font-size: 180%;
+        font-size: 140%;
+        line-height: 40px;
+    }
+
+    .header-text {
+        top: 52%;
+        left: 50%;
+    }
+
+    .section-about p {
+        margin: 0% 5%;
+    }
+
+    .section-about img {
+        width: 30%;
+        margin: 0% 35% 3% 35%;
     }
 
     
@@ -34,8 +52,12 @@
 
 
     h1 {
-        padding:0 28%;
-        font-size: 160%;
+        font-size: 140%;
+    }
+
+    .header-text {
+        left: 45%;
+        top:56.5%;
     }
 
     .project-box {
@@ -47,9 +69,7 @@
     }
 
     .section-about img {
-        border-radius: 50%;
         width: 40%;
-        height: auto;
         margin: 0% 30% 3% 30%;
     }
 

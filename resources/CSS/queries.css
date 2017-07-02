@@ -42,13 +42,15 @@
 /* Small phones from 1 -480px */
 @media only screen and (max-width:480px) {
 
+    
+
 
     h1 {
-        font-size: 140%;
+        font-size: 112%;
     }
 
     .header-text {
-        left: 45%;
+        left: 37%;
         top:56.5%;
     }
 
@@ -71,6 +73,38 @@
         letter-spacing: 0px;
         word-spacing: 0px;
         text-align: center;
+    }
+
+    .main-nav {
+        float:right;
+        list-style: none;
+        text-align: right;
+        padding-top: 25px;
+        padding-bottom: 10px;
+        width: 100%;
+        top: 0%;
+        right: 0%;
+    }
+
+    .main-nav li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 90%;
+        padding: 12px;
+        border-bottom: 3px solid transparent;
+        -webkit-transition: border-bottom 0.2s;
+        transition: border-bottom 0.2s;
+    }
+
+    .main-nav li a:hover,
+    .main-nav li a:active {
+        border-bottom: 2px solid #2980b9;
     }
 
 

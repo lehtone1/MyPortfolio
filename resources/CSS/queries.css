@@ -35,6 +35,14 @@
         margin: 0% 35% 3% 35%;
     }
 
+    .contact-list {
+        margin: 0 20%;
+    }
+
+    .section-about p {
+        font-size: 90%;
+    }
+
     
 
 }
@@ -47,6 +55,7 @@
 
     h1 {
         font-size: 112%;
+        font-weight: 300;
     }
 
     .header-text {
@@ -69,7 +78,7 @@
 
     .section-about p {
         font-size: 83%;
-        margin: 0%;
+        margin: 0 25%;
         letter-spacing: 0px;
         word-spacing: 0px;
         text-align: center;
@@ -89,6 +98,7 @@
     .main-nav li {
         display: inline-block;
         margin-right: 20px;
+        font-weight: 300;
     }
 
     .main-nav li a:link,
@@ -106,6 +116,12 @@
     .main-nav li a:active {
         border-bottom: 2px solid #2980b9;
     }
+
+    .contact-list {
+        margin: 0 8%;
+    }
+
+    
 
 
 

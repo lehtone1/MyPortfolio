@@ -211,10 +211,10 @@ header {
 
 .section-about p {
     text-align: center;
-    margin: 0% 20%;
     letter-spacing: 1px;
     word-spacing: 2px;
     line-height: 140%;
+    margin: 0 5%;
 }
 
 
@@ -235,12 +235,10 @@ header {
     width: 100%;
     height: auto;
     margin-bottom: 20px;
-    filter: brightness(80%);
 }
 
 .project-box p {
     margin: 0 5%;
-    text-align: center;
 }
 
 .project-box h3 {

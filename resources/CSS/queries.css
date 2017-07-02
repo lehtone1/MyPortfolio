@@ -17,10 +17,6 @@
         font-size: 200%;
     }
 
-    .section-about p {
-        margin: 0% 15%;
-    }
-
 /* Small phones to small tablets 481 - 767px */
 @media only screen and (max-width:767px) {
 
@@ -32,10 +28,6 @@
     .header-text {
         top: 52%;
         left: 50%;
-    }
-
-    .section-about p {
-        margin: 0% 5%;
     }
 
     .section-about img {
@@ -72,6 +64,15 @@
         width: 40%;
         margin: 0% 30% 3% 30%;
     }
+
+    .section-about p {
+        font-size: 83%;
+        margin: 0%;
+        letter-spacing: 0px;
+        word-spacing: 0px;
+        text-align: center;
+    }
+
 
 
 }}

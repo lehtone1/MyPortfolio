@@ -25,7 +25,7 @@
             </nav>
             <div class="header-text"> 
                 <h1 aria-label="Hi, I am Eero a programmer and an adventurer who loves to wonder about life.">Hi, I am Eero, <br> a programmer and an adventurer <br> who loves 
-                    <span class="typer" id="love_typer" data-delay="100" data-delim=":" data-words="dancing.:mountains.:asian food.:climbing.:board games.:yoga.:hiking.:sunrises.:trees.:swimming.:avocado.:dogs."  data-colors="white"></span>
+                    <span class="typer" id="love_typer" data-delay="100" data-delim=":" data-words="books:.dancing.:philosophy.:mountains.:asian food.:climbing.:board games.:yoga.:hiking.:sunrises.:trees.:swimming.:avocado.:dogs."  data-colors="white"></span>
                 </h1>    
             </div>
         </header>
@@ -37,7 +37,7 @@
             <div class="row">
                 <img src="resources/img/my-image.jpeg" role="presentation">
                 <p>
-                    Hi stranger! <br> Nice to have you here on my portfolio website. <br><br> I am Eero, a self development and learning enthusiast, <br>who is currently working at Frantic as a Junior Developer. <br>My core knowledge is in web developing languages like HTML,<br> CSS, Freemarker, Sass and JS, but I’m also good at languages like Python and Scala.<br> On this page you can find some small descriptions about projects<br> that I have been doing in my free time or in the university. <br>At the moment I am concentrating in studying more about Machine Learning.<br> If you have any interesting projects or you just feel like saying hi,<br> don't hesitate to contact me.
+                        Hi stranger! <br> Nice to have you here on my portfolio website. <br><br> I am Eero, a data and learning entusiast, <br>who is currently doing his master's in Aalto University. <br> My core knowledge is business development, <br> data science/ML with Python and web development. <br>On this page you can find some small descriptions about projects<br> that I have been doing in my free time or in the university. <br>At the moment I am concentrating on improving my skills in Machine Learning.<br> If you have any interesting projects or you just feel like saying hi,<br> don't hesitate to contact me.
                 </p>
             </div>
         </section>
@@ -47,50 +47,72 @@
             <div class="row">
                 <h2>Projects</h2>
             </div>
+            <h3>Data/ML projects</h3>
+            <div class="projects-container">
+                <div class="project-box">
+                    <img src="resources/img/fashion.png" role="presentation">
+                    <h4>iMaterialist Challenge</h4>
+                    <p>A Kaggle-challenge organized by FGVC5. The task was to develop an algorithm for fashion cloth multi-label classification. I participated to this challenge with a friend. We decided to re-train ResNet50 model for the task. We were satisfied with our process, but we encountered lot of problems concerning data quality and the amount of data. Due to these problems and our outcomes stayed quite modest. The main takeaways from this challenge were the constructive communication and techniques for multi-label classification.<a target="_blank" href="https://github.com/filbt/fashion"> Github</a></p>
+                </div>
+                <div class="project-box">
+                    <img src="resources/img/dog.png" role="presentation">
+                    <h4>Dog breed identification</h4>
+                    <p>In this Kaggle-challenge the task was to develop an algorithm for dog breed multi-class classification. I participated to this competition through a course in computer vision, where I investigated the VGG16 neural net. I re-trained the model and was able to gain 70% accuracy in the task. The problems I faced were mainly related to architecture of the VGG16 model. The old model was slow to train, and its accuracy was far from state of art. The most important takeaways from this challenge were the process of re-training a Keras-model.<a target="_blank" href="https://github.com/lehtone1/Dog_breed_identification"> Github</a></p>
+                </div>
+                <div class="project-box">
+                    <img src="resources/img/time_series.png" role="presentation">
+                    <h4>Sales Prediction Challenge</h4>
+                    <p>An assignment for predicting future sales. The idea was to build a machine learning model for time-series analysis. To tackle this challenge, I combined a linear estimator with a logarithmic predictor that I built for modeling advertising adstock. The biggest take-ways from this task was the ML methods for time-series analysis and the tools for parameter tuning.<a target="_blank" href="https://github.com/lehtone1/sales_data_analytics"> Github</a></p>
+                </div>
+            </div>
+            <h3>Web projects</h3>
             <div class="projects-container">
                 <div class="project-box">
                     <img src="resources/img/susntainapp.png" role="presentation">
-                    <h3>SustainUp</h3>
+                    <h4>SustainUp</h4>
                     <p>
                             The winning project for Outotec's sustainability challenge in Junction hackathon 2017. The main objective was to find a way to improve consumers' knowledge about the impact of their choices. To tackle this problem we created a gamified learning experience for high school kids about the lifecycle of a mobile phone. The project was done in a group of five. I took part in the planning phase and did most of the development needed for the project. The application was built using Angular 4 framework. You can find the final product in <a target="_blank" href="https://sustainup.github.io/#/intro">this</a> address.
                     </p>
                 </div>
                 <div class="project-box">
                     <img src="resources/img/sierra.png" role="presentation">
-                    <h3>Sierra website</h3>
+                    <h4>Sierra website</h4>
                     <p>
                         A freelance website project for Sierra condominium. This was my first freelance project, which made it really interesting. I did the website entirely by myself including the design. The website was done with Angular JS, which was a new frameworking language for me. Even though the webpage is simple, I am pretty satisfied with the outcome. you can visit the site on <a href="http://sierra.fi" target="_blank">www.sierra.fi</a>
                     </p>
                 </div>
                 <div class="project-box">
-                    <img src="resources/img/tutee.png" role="presentation">
-                    <h3>Tutee</h3>
-                    <p>
-                        As an university project we made an application called Tutee in a group of four. The main objective of the application is to pair up people who are interested in tutoring with people who are looking for tutors. The application provides filtering features that make it easier to find a suitable tutor for your needs, tutoring class reservation system, calendar features, and a chat for conversations. The application can be found in Google Play with the name <a target="_blank" href="https://play.google.com/store/apps/details?id=fi.tutee.tutee&hl=en">Tutee.</a>
-                    </p>
-                </div>
-                <div class="project-box">
                     <img src="resources/img/mymind.png" role="presentation">
-                    <h3>MyMind</h3>
+                    <h4>MyMind</h4>
                     <p>
                         MyMind is a simple prototype application for reading news that I made for a company called Qvick. The prototype application focuses mainly on the visual side of the application and creating a smooth user experience for moving from the categories to reading the chosen article. As the application is only a prototype, the news only exist locally and it is not capable to fetch the news from a website or a database. The source code of the application can be found on my <a target="_blank" href="https://github.com/lehtone1/MyMind">Github page.</a>
                     </p>
                 </div>
                 <div class="project-box">
                     <img src="resources/img/omnifood.png" role="presentation">
-                    <h3>Omnifood</h3>
+                    <h4>Omnifood</h4>
                     <p>
                         A webpage for an imaginary food company made as an outcome of an Udemy web development course.  The main focus of the project was to build a beautiful reactive website that would provide the customers a pleasant user experience. The source code of the website can be found on my <a href="https://github.com/lehtone1/Omnifood" target="_blank">Github page.</a>
                     </p>
                 </div>
+            </div>
+            <h3>Other</h3>
+            <div class="projects-container">
+                <div class="project-box">
+                    <img src="resources/img/tutee.png" role="presentation">
+                    <h4>Tutee</h4>
+                    <p>
+                        As an university project we made an application called Tutee in a group of four. The main objective of the application is to pair up people who are interested in tutoring with people who are looking for tutors. The application provides filtering features that make it easier to find a suitable tutor for your needs, tutoring class reservation system, calendar features, and a chat for conversations. The application can be found in Google Play with the name <a target="_blank" href="https://play.google.com/store/apps/details?id=fi.tutee.tutee&hl=en">Tutee.</a>
+                    </p>
+                </div>
                 <div class="project-box">
                     <img src="resources/img/highway.png" role="presentation">
-                    <h3>Highway dodging game</h3>
+                    <h4>Highway dodging game</h4>
                     <p>
                         Highway racing game was my first bigger university project made in a group of three. With the group we designed a 2D game in which the player is driving on a highway, dodging other cars, and avoiding to drop off from the game field. The game provides visual user interface, basic moving commands, sounds, and music. The source code of the game can be found on my <a href="https://github.com/lehtone1/Highway_racing_game" target="_blank">Github page.</a>
                     </p>
                 </div>
-            </div>
+             </div>
         </section>
 
         <footer id="contact">

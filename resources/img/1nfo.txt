@@ -1,0 +1,1 @@
+Define ratio between image horizontal and vertical size and make all images fit it
